@@ -1,4 +1,19 @@
-def test_basic_addition():
-    assert 1 + 1 == 2
+# Bon (style PEP8 corrigé)
+import time
 
-# <--- ligne vide ici, absolument nécessaire
+
+from tqdm import tqdm
+
+
+class MyClass:
+    def my_method(self):
+        result = 1 + 2
+        print("Result is: " + str(result))
+
+
+def another_function():
+    pass
+
+
+
+# Bon (style PEP8 corrigé)
