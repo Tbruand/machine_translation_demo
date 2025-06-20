@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnement virtuel
+venv/
+env/
+.env/
+.venv/
+
+# Fichiers de logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.swp
+*.swo
+
+# Dossiers de données brutes ou traitées (optionnel : si dataset volumineux, on ignore)
+data/raw/
+data/processed/
+
+# Sorties / résultats
+outputs/
+results/
+
+# Modèles / checkpoints
+checkpoints/
+*.ckpt
+*.pt
+*.bin
+
+# Cache transformers
+cache/
+transformers_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs et éditeurs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Python egg
+*.egg-info/
+dist/
+build/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# dotenv environment variables
+.env
+
+# PyCharm
+.idea/
