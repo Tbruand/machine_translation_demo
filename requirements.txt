@@ -1,1 +1,13 @@
 pytest
+gradio
+sacrebleu
+rouge_score
+transformers
+datasets
+tiktoken
+protobuf
+torch
+torchvision
+torchaudio
+sentencepiece
+tqdm
